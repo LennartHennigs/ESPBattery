@@ -32,14 +32,14 @@ These are the constructor and the member functions the library provides:
     int getLevel();
     int getState();
     int getPreviousState();
-	String stateToString(int state);
+    String stateToString(int state);
     
     void setLevelChangedHandler(CallbackFunction f);
     void setLevelLowHandler(CallbackFunction f);
     void setLevelCriticalHandler(CallbackFunction f);    
     void setLevelChargingHandler(CallbackFunction f);    
 
-	void loop();
+    void loop();
 ```
 
 The library provides several callback handlers to be notified when the battery levels changes.
