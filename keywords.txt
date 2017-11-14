@@ -1,0 +1,17 @@
+ESPBattery				KEYWORD1
+getVoltage				KEYWORD2
+getPercentage			KEYWORD2
+getLevel				KEYWORD2
+getState				KEYWORD2
+getPreviousState		KEYWORD2
+stateToString			KEYWORD2
+setLevelChangedHandler	KEYWORD2
+setLevelLowHandler		KEYWORD2
+setLevelCriticalHandler	KEYWORD2
+setLevelChargingHandler	KEYWORD2
+loop					KEYWORD2
+ESPBATTERY_CHARGING		LITERAL1
+ESPBATTERY_FULL			LITERAL1
+ESPBATTERY_OK			LITERAL1
+ESPBATTERY_LOW			LITERAL1
+ESPBATTERY_CRITICAL		LITERAL1
